@@ -38,9 +38,9 @@ class Auto():
       for i in self.asientos:
        if i!=None:
         if i.registro==x:
-          return "bueno"
+          return "Auto original"
         else:
-          return "malo"
+          return "Las piezas no son originales"
       else:
         pass
 
